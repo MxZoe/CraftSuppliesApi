@@ -1,0 +1,18 @@
+@using craftSupplies.Models
+@model IEnumerable<craftSupplies.Models.EmbroideryThread>
+
+<h1>All Embroidery Threads:</h1>
+
+<ol>
+@foreach (EmbroideryThread thread in Model)
+{
+    <ul>
+        <li>ID: @thread.Id</li>
+        <li>Brand: @thread.Brand</li>
+        <li>Name: @thread.Name</li>
+        <li>Hex #: @thread.Hex</li>
+    </ul>
+   <!-- <a href="/Animals/Details/@(thread.Id)"><p>View Details</p></a>-->
+    <br>
+}
+</ol>

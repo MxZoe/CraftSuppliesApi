@@ -1,14 +1,16 @@
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using craftSupplies.Models;
+using System.Linq;
 
 namespace CraftSupplies.Controllers
 {
   [Route("api/[controller]")]
   [ApiController]
-  public class EmbroideryThreadController : ControllerBase
+  public class EmbroideryThreadController : Controller
   {
     private readonly CraftSuppliesContext _db;
 
@@ -16,7 +18,11 @@ namespace CraftSupplies.Controllers
     {
       _db = db;
     }
-
+    public IActionResult Index()
+    {
+      var allThreads = EmbroideryThread.GetThreads();
+      return View(allThreads);
+    }
     // GET api/EmbroideryThreads
     [HttpGet]
     public async Task<ActionResult<IEnumerable<EmbroideryThread>>> Get()
@@ -32,6 +38,22 @@ namespace CraftSupplies.Controllers
       await _db.SaveChangesAsync();
 
       return CreatedAtAction("Post", new { id = thread.Id }, thread);
+    }
+
+    // GET: api/embroiderythreads/dmc
+    [HttpGet("{brand}")]
+    public async Task<ActionResult<IEnumerable<EmbroideryThread>>> GetBrand(string brand)
+    {
+  
+      var query = _db.EmbroideryThreads.AsQueryable();
+
+      if (brand != null)
+      {
+        query = query.Where(entry => entry.Brand == brand);
+      }
+
+
+      return await query.ToListAsync();
     }
   }
 }

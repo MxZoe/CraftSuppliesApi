@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\zwein\\epicodus\\myProjects\\craftSupplies\\craftSupplies.csproj",
+  "FilePath": "c:\\Users\\zwein\\epicodus\\myProjects\\craftSupplies\\CraftSupplies.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15616,7 +15616,13 @@
     ],
     "CSharpLanguageVersion": 900
   },
-  "RootNamespace": "craftSupplies",
-  "Documents": [],
+  "RootNamespace": "CraftSupplies",
+  "Documents": [
+    {
+      "FilePath": "c:\\Users\\zwein\\epicodus\\myProjects\\craftSupplies\\Views\\EmbroideryThreads\\Index.cshtml",
+      "TargetPath": "Views\\EmbroideryThreads\\Index.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
   "SerializationFormat": "0.2"
 }

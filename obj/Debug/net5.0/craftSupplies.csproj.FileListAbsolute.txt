@@ -33,3 +33,17 @@ C:\Users\zwein\epicodus\myProjects\craftSupplies\obj\Debug\net5.0\refint\craftSu
 C:\Users\zwein\epicodus\myProjects\craftSupplies\obj\Debug\net5.0\craftSupplies.pdb
 C:\Users\zwein\epicodus\myProjects\craftSupplies\obj\Debug\net5.0\craftSupplies.genruntimeconfig.cache
 C:\Users\zwein\epicodus\myProjects\craftSupplies\obj\Debug\net5.0\ref\craftSupplies.dll
+C:\Users\zwein\epicodus\myProjects\craftSupplies\obj\Debug\net5.0\CraftSupplies.RazorAssemblyInfo.cache
+C:\Users\zwein\epicodus\myProjects\craftSupplies\obj\Debug\net5.0\CraftSupplies.RazorAssemblyInfo.cs
+C:\Users\zwein\epicodus\myProjects\craftSupplies\bin\Debug\net5.0\CraftSupplies.Views.dll
+C:\Users\zwein\epicodus\myProjects\craftSupplies\bin\Debug\net5.0\CraftSupplies.Views.pdb
+C:\Users\zwein\epicodus\myProjects\craftSupplies\bin\Debug\net5.0\Castle.Core.dll
+C:\Users\zwein\epicodus\myProjects\craftSupplies\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\zwein\epicodus\myProjects\craftSupplies\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\zwein\epicodus\myProjects\craftSupplies\bin\Debug\net5.0\RestSharp.dll
+C:\Users\zwein\epicodus\myProjects\craftSupplies\obj\Debug\net5.0\CraftSupplies.TagHelpers.input.cache
+C:\Users\zwein\epicodus\myProjects\craftSupplies\obj\Debug\net5.0\CraftSupplies.TagHelpers.output.cache
+C:\Users\zwein\epicodus\myProjects\craftSupplies\obj\Debug\net5.0\CraftSupplies.RazorCoreGenerate.cache
+C:\Users\zwein\epicodus\myProjects\craftSupplies\obj\Debug\net5.0\Razor\Views\EmbroideryThreads\Index.cshtml.g.cs
+C:\Users\zwein\epicodus\myProjects\craftSupplies\obj\Debug\net5.0\CraftSupplies.RazorTargetAssemblyInfo.cs
+C:\Users\zwein\epicodus\myProjects\craftSupplies\obj\Debug\net5.0\CraftSupplies.Views.pdb
